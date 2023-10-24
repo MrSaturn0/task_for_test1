@@ -1,8 +1,7 @@
 #include <iostream>
-
 int main(int n) 
 {
-	std::cout << "You number is here: ";
+	std::cout << "You number is here:";
 	std::cin >> n;
 	int count = 0;
 	int max_number = n;
@@ -17,7 +16,7 @@ int main(int n)
 			max_number = n;
 		}
 	}
-	std::cout << "Count:" << count << std::endl;
+	std::cout << "Coun: " << count << std::endl;
 	std::cout << "Max_number: " << max_number << std::endl;
 
 	std::system("pause");
